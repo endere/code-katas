@@ -32,3 +32,13 @@
 - **Tests**: `test_foxes.py`
 - **URL**: https://www.codewars.com/kata/591144f42e6009675300001f
 
+
+#Extra Credit Katas
+
+**The Forbes Top 40**
+
+- **Module**: `forbes.py`
+- **Tests**: `test_forbes.py`
+- **URL**: https://codefellows.github.io/sea-python-401d5/assignments/kata_forbes_billionaires.html
+    #Worked on project on own while Sean Beseler did same project in room. 
+    #Code for reading json was found on stackoverflow. The rest of the code is my own.
