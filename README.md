@@ -42,3 +42,11 @@
 - **URL**: https://codefellows.github.io/sea-python-401d5/assignments/kata_forbes_billionaires.html
     #Worked on project on own while Sean Beseler did same project in room. 
     #Code for reading json was found on stackoverflow. The rest of the code is my own.
+
+
+**String Pyramid**
+
+- **Module**: `string_pyramid.py`
+- **Tests**: `test_string_pyramid.py`
+- **URL**: http://www.codewars.com/kata/string-pyramid/
+    #Worked on project on own while Sean Beseler did same project in room. 
