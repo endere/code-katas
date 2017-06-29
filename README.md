@@ -49,3 +49,10 @@
 - **Tests**: `test_sort_cards.py`
 - **URL**: https://www.codewars.com/kata/56f399b59821793533000683/
     #I could have done a cute lil' one liner with the built in python 'sorted' function. I felt the best use of my time was learning a new sorting algorithm, so I researched and used merge sort. Obviously the core logic of merge sort is not mine. I did however, adapt this to the kata, and fully transcribed it based on other code (no copy paste).
+
+**Proper Parenthetics**
+
+- **Module**: `parenthetics.py`
+- **Tests**: `test_parenthetics.py`
+- **URL**: https://codefellows.github.io/sea-python-401d6/assignments/proper_parenthetics.html
+    #I feel like I could have easily done this with many of our data structures. Or even without a data structure. I settled on using the queue because I could see a clear and simple use for it.
