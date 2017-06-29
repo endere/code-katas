@@ -43,9 +43,19 @@
     #Worked on project on own while Sean Beseler did same project in room. 
     #Code for reading json was found on stackoverflow. The rest of the code is my own.
 
+
 **Sort Deck of Cards**
 
 - **Module**: `sort_cards.py`
 - **Tests**: `test_sort_cards.py`
 - **URL**: https://www.codewars.com/kata/56f399b59821793533000683/
     #I could have done a cute lil' one liner with the built in python 'sorted' function. I felt the best use of my time was learning a new sorting algorithm, so I researched and used merge sort. Obviously the core logic of merge sort is not mine. I did however, adapt this to the kata, and fully transcribed it based on other code (no copy paste).
+
+
+**String Pyramid**
+
+- **Module**: `string_pyramid.py`
+- **Tests**: `test_string_pyramid.py`
+- **URL**: http://www.codewars.com/kata/string-pyramid/
+    #Worked on project on own while Sean Beseler did same project in room. 
+
