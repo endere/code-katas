@@ -63,3 +63,12 @@
 - **Module**: `flight_paths.py`
 - **Tests**: `test_flight_paths.py`
 - **URL**: https://codefellows.github.io/sea-python-401d6/assignments/kata_flight_paths.html
+
+**String Pyramid**
+
+- **Module**: `string_pyramid.py`
+- **Tests**: `test_string_pyramid.py`
+- **URL**: http://www.codewars.com/kata/string-pyramid/
+    #Worked on project on own while Sean Beseler did same project in room. 
+
+
