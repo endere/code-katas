@@ -45,9 +45,13 @@ def track_path(city1, city2, data=data):
             except KeyError:
                 pass
     try:
-        return city_graph.bellman_ford(city1, city2)
+        to_return = city_graph.bellman_ford(city1, city2)
+        if to_return[0] == float("inf"):
+            raise KeyError('City does not exist')
+        else:
+            return to_return
     except KeyError:
-        raise KeyError('City has no Latitude or Longitude Given.')
+        raise KeyError('City has no Latitude or Longitude Given or does not exist.')
 
 if __name__ == '__main__':
     print(track_path('London', 'Sydney'))
