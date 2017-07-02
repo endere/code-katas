@@ -57,10 +57,18 @@
 - **URL**: https://codefellows.github.io/sea-python-401d6/assignments/proper_parenthetics.html
     #I feel like I could have easily done this with many of our data structures. Or even without a data structure. I settled on using the queue because I could see a clear and simple use for it.
 
+
+**Flight Paths**
+
+- **Module**: `flight_paths.py`
+- **Tests**: `test_flight_paths.py`
+- **URL**: https://codefellows.github.io/sea-python-401d6/assignments/kata_flight_paths.html
+
 **String Pyramid**
 
 - **Module**: `string_pyramid.py`
 - **Tests**: `test_string_pyramid.py`
 - **URL**: http://www.codewars.com/kata/string-pyramid/
     #Worked on project on own while Sean Beseler did same project in room. 
+
 
