@@ -71,4 +71,10 @@
 - **URL**: http://www.codewars.com/kata/string-pyramid/
     #Worked on project on own while Sean Beseler did same project in room. 
 
+#Other Katas that were assigned but are not extra credit for some reason
+**AutoCompleter**
 
+- **Module**: `autocomplete.py`
+- **Tests**: `test_autocomplete.py`
+- **URL**: https://codefellows.github.io/sea-python-401d6/assignments/kata_autocomplete.html
+    #Provides suggestions for words based on user's input.
