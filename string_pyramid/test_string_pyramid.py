@@ -16,24 +16,32 @@ abcdcba
 abcccba
 abbbbba
 aaaaaaa'''),
-    ('*#', '***\n*#*\n***')
+    ('*#', '***\n*#*\n***'),
+    ('1', '1'),
+    ('', '')
 ]
 
 PARAMS_TABLE_SIDE = [
     ('abc', '  c  \n bbb \naaaaa'),
     ('abcd', '   d   \n  ccc  \n bbbbb \naaaaaaa'),
-    ('*#', ' # \n***')
+    ('*#', ' # \n***'),
+    ('1', '1'),
+    ('', '')
 ]
 
 PARAMS_TABLE_VISIBLE = [
     ('abcd', 49),
     ('abc', 25),
-    ('*#', 9)
+    ('*#', 9),
+    ('1', 1),
+    ('', -1)
 ]
 PARAMS_TABLE_ALL = [
     ('abcd', 84),
     ('abc', 35),
-    ('*#', 10)
+    ('*#', 10),
+    ('1', 1),
+    ('', -1)
 ]
 
 
