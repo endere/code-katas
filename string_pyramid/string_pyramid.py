@@ -88,4 +88,4 @@ def count_all_characters_of_the_pyramid(characters):
     return total
 
 if __name__ == '__main__':
-  print(count_all_characters_of_the_pyramid('abcd'))
+  print(watch_pyramid_from_the_side(45))
