@@ -30,7 +30,12 @@ def calculate_distance(point1, point2):  #pragma no cover
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     return radius_earth * c / 1.60934 # convert km to miles
 
+
 def track_path(city1, city2, data=data):
+    """Take two city names and data set. Creates a graph from data, and gives the shortest path from one city to the other.
+
+    Raises keyerrors if one of the given cities does not exist or there is no path between the given cities.
+    """
     city_graph = Graph()
     location_dict = {}
     for city in data:
