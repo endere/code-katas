@@ -1,4 +1,4 @@
-MORSE_CODE = {'..-.': 'F', '-..-': 'X', '...---...': "SOS",
+MORSE_CODE = {'..-.': 'F', '-..-': 'X',
                  '.--.': 'P', '-': 'T', '..---': '2',
                  '....-': '4', '-----': '0', '--...': '7',
                  '...-': 'V', '-.-.': 'C', '.': 'E', '.---': 'J',
@@ -34,9 +34,47 @@ def decodeMorse(morseCode):
     return to_return
 
 
-
+def decodeBits(bits):
+    for i in range(len(bits)):
+        if bits[i] != "0":
+            bits = bits[i:]
+            break
+    rate = 0
+    for i in range(len(bits)):
+        if bits[i] == "0":
+            rate += 1
+        if bits[i] == "1" and rate > 0:
+            break
+    if rate == 0:
+        return '.'
+    bits = bits.split("0" * rate)
+    for i in range(len(bits)):
+        if bits[i] == "1" * rate:
+            bits[i] = '.'
+        elif bits[i] == '1' * rate * 3:
+            bits[i] = '-'
+        elif len(bits[i]) < rate and bits[i][0] == "1":
+            bits[i] = '.'
+    i = 0
+    while True:
+        try:
+            if bits[i] == "":
+                if bits[i + 1] == "." or bits[i + 1] == '-':
+                    count = 0
+                    while bits[i - 1] == "":
+                        count += 1
+                        del bits[i - 1]
+                        i -= 1
+                        bits[i] = '   ' if count == 5 else ' '
+            i += 1
+        except IndexError:
+            break
+    print(bits)
+    bits = "".join(bits)
+    print(bits)
+    return bits
 
 
 if __name__ == '__main__':
-    print(decodeMorse('.... . -.--   .--- ..- -.. .'))
-    print(decodeMorse('...---...'))
+    print(decodeMorse(decodeBits("10001")))
+    print(decodeMorse(decodeBits("1100110011001100000011000000111111001100111111001111110000000000000011001111110011111100111111000000110011001111110000001111110011001100000011")))
