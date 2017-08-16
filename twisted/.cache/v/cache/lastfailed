@@ -1,0 +1,8 @@
+{
+  "test_twisted.py::test_twisted[10-46]": true, 
+  "test_twisted.py::test_twisted[11-48]": true, 
+  "test_twisted.py::test_twisted[12-51]": true, 
+  "test_twisted.py::test_twisted[2-3]": true, 
+  "test_twisted.py::test_twisted[3-6]": true, 
+  "test_twisted.py::test_twisted[4-10]": true
+}
