@@ -1,18 +1,10 @@
-"""Code to autocomplete words based on a given input."""
 from trie import TrieTree, Node
 import sys
 
 
 class AutoCompleter(TrieTree):
-    """A trie tree that returns a list of suggestions based on input when called."""
 
     def __init__(self, vocabulary, max_completions=5):
-        """Set up tree.
-
-        Parses data (as a list or file) into tree.
-        Accepts a number of completions, which is how many suggestions
-        it will give when called.
-        """
         self.max_completions = max_completions
         self.length = 0
         self.root = Node('.', 0, None)
@@ -34,7 +26,6 @@ class AutoCompleter(TrieTree):
                 raise FileNotFoundError('Please enter valid list or file path.')
 
     def __call__(self, string):
-        """Use trie traversal to return a list of suggestions based on input."""
         to_return = []
         gen = self.traversal(string)
         try:
@@ -47,5 +38,10 @@ class AutoCompleter(TrieTree):
 
 
 if __name__ == '__main__':
-    complete_me = AutoCompleter('/usr/share/dict/words', 17)
-    print(complete_me('d'))
+    # complete_me = AutoCompleter('/usr/share/dict/words')
+    complete_me = AutoCompleter(['test', 'hello', 4])
+
+    print(complete_me('dino'))
+
+
+    #/django-imager/imagersite$ /home/ubuntu/django-imager/ENV/bin/gunicorn imagersite.wsgi:application
