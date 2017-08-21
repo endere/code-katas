@@ -1,13 +1,3 @@
 def move_zeros(data):
-    temp_list = []
-    for i in data:
-        if i == 0:
-            temp_list.append(i)
-            data.remove(i)
-    for i in temp_list:
-        data.append(i)
-    print(data)
-
-
-if __name__ == '__main__':
-    move_zeros([1, 2, 3, 0, 4, 0, 5, 6])
+    temp_list = [i for i in data if i != 0 or type(i) == bool]
+    return temp_list + [0 for i in range(len(data) - len(temp_list))]

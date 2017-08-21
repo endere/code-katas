@@ -1,12 +1,1 @@
-{
-  "test_zeros.py::test_zeros[data0-result0]": true, 
-  "test_zeros.py::test_zeros[data1-result1]": true, 
-  "test_zeros.py::test_zeros[data2-result2]": true, 
-  "test_zeros.py::test_zeros[data3-result3]": true, 
-  "test_zeros.py::test_zeros[data4-result4]": true, 
-  "test_zeros.py::test_zeros[data5-result5]": true, 
-  "test_zeros.py::test_zeros[data6-result6]": true, 
-  "test_zeros.py::test_zeros[data7-result7]": true, 
-  "test_zeros.py::test_zeros[data8-result8]": true, 
-  "test_zeros.py::test_zeros[data9-result9]": true
-}
+{}
